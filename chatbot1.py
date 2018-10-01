@@ -12,7 +12,7 @@ trainer = Trainer(config.load("/Users/Annora/Desktop/chatbot3/config_spacy.yml")
 training_data = load_data('/Users/Annora/rasa_nlu_chi/data/examples/rasa/rasa-stock.md')
 interpreter = trainer.train(training_data)
 
-#单轮单次查询，支持不同形式的提问和一定容错
+#单轮单次查询，支持不同形式的提问和容错
 from iexfinance import Stock
 params = {}
 def respond(message, params): 
