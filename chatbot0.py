@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-#多选择回答
+#多选择回答，简单问候
 from wxpy import *
 bot = Bot()
 
