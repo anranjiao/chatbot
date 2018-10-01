@@ -1,10 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Mon Oct  1 21:19:55 2018
 
-@author: Annora
-"""
 #多轮多次查询
 from wxpy import *
 bot = Bot()
